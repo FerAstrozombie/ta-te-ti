@@ -15,7 +15,6 @@ const Square = ({ value, onClick, turn, winner }) => {
 
     return (
         <div className={squareClass} onClick={() => handleClick()}>
-
         </div>
     )
 }

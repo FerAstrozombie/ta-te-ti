@@ -7,3 +7,9 @@
   background-image: url("https://i.pinimg.com/originals/24/f6/24/24f624228a03a1a5a0f2e6563a75f2f5.jpg");
   background-size: cover;
 }
+
+@media screen and (max-width: 480px){
+  .container{
+    background-position: center;
+  }
+}

@@ -1,0 +1,22 @@
+.score-boardX div {
+    width: 322px;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+    background-color: #CD493A;
+    box-shadow: 0 0 20px #CD493A;
+
+}
+
+.score-board div:first-child {
+    background-color: #CD493A;
+}
+
+@media screen and (max-width: 480px){
+    .score-boardX div{
+        width: 260px;
+    }
+}
